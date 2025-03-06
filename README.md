@@ -79,7 +79,8 @@ python3 demo/main.py
 
 相比于上述项目，本项目对Chrome做了一些配置优化。对于非开发软件，做了精简。
 
-# 微信群交流
+# 微信交流
 
-![img.png](imgs/wechat.png)
+wechat: lzh526154064
+
 

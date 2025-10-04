@@ -38,6 +38,8 @@ RUN echo '{"CommandLineFlagSecurityWarningsEnabled": false}' > /etc/opt/chrome/p
 # 配置系统时间和本地时间同步
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
+EXPOSE 6901
+
 # 环境变量配置
 ENV TZ=Asia/Shanghai \
    LANG=zh_CN.UTF-8 \
